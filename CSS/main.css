@@ -270,8 +270,9 @@ header ul li a:hover {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin: 0 40px;
+    margin: 0 60px 0 40px;
     max-width: 50%;
+    text-align: center;
 }
 
 .development{
@@ -312,7 +313,7 @@ header ul li a:hover {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin: 0 40px;
+    margin: 0 100px 0 40px  ;
     max-width: 50%;
 }
 
@@ -413,4 +414,52 @@ form{
 
 .btn:hover{
     background-color: #2041c8;
+}
+
+#circleOne{
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+    background-color: #407BFF;
+    position: absolute;
+    top: 515vh;
+    left: 82vw;
+    opacity: 15%;
+}
+
+#circleTwo{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #407BFF;
+    position: absolute;
+    top: 510vh;
+    left: 79vw;
+    opacity: 15%;
+}
+
+#circleThree{
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+    background-color: #407BFF;
+    position: absolute;
+    top: 485vh;
+    left: 4vw; 
+    opacity: 15%;
+}
+
+#circleFour{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #407BFF;
+    position: absolute;
+    top: 500vh;
+    left: 13vw;
+    opacity: 15%;
+}
+
+h3{
+    text-decoration: underline;
 }
